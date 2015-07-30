@@ -1,0 +1,51 @@
+Download and install git, public key
+git config --get user.name
+git config --get user.email
+
+git config --global user.name "swena56"
+git config --global user.email "swena56@gmail.com"
+
+git clone http://github.com/swena56/Andy56
+cd Andy56
+git init
+git add .
+git status
+
+
+git remote add origin git@github.com:swena56/Andy56.git
+git push origin master
+
+#### How to use branches ####
+git branch
+git checkout -f & git status
+
+
+#### Deploy with Heroku ####
+gem install heroku
+heroku login
+heroku keys:add
+heroku git:clone -a andy56
+
+edit .git/config
+[remote "heroku"]
+url = git@heroku.com:rails-signup-download.git
+fetch = +refs/heads/*:refs/remotes/heroku/*
+
+make sure bundle install works correctly and all gems are install that are listed in gemFile
+
+
+git add . 
+git commit -am "heroku update"
+git push heroku master
+#############################
+
+bundle update ___
+bundle show __
+
+#to start server
+bundle install
+rails server
+
+gem uninstall ____
+rails new learn-rails -m https://raw.github.com/RailsApps/rails-composer/master/composer.rb
+

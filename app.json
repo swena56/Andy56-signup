@@ -19,27 +19,27 @@
   "env": {
     "GMAIL_USERNAME": {
       "description": "Your Gmail address for sending mail.",
-      "value": "user@example.com",
+      "value": "pass",
       "required": false
     },
     "GMAIL_PASSWORD": {
       "description": "Your Gmail password for sending mail.",
-      "value": "changeme",
+      "value": "afsAFS294665656!",
       "required": false
     },
     "ADMIN_EMAIL": {
       "description": "The administrator's email address for signing in.",
-      "value": "user@example.com",
+      "value": "swena56@gmail.com",
       "required": true
     },
     "ADMIN_PASSWORD": {
       "description": "The administrator's password for signing in.",
-      "value": "changeme",
+      "value": "pass",
       "required": true
     },
     "DOMAIN_NAME": {
       "description": "Required for sending mail. Give an app name or use a custom domain.",
-      "value": "myapp.herokuapp.com",
+      "value": "andy56-signup.herokuapp.com",
       "required": false
     },
     "PRODUCT_PRICE": {
