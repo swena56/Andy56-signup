@@ -6,6 +6,14 @@ class ProductsController < ApplicationController
     send_file @path, :disposition => "attachment; filename=#{@file}"
   end
 
+  def list
+
+  end
+
+  def create
+    Product.create(params[:product])
+  end
+
   private
   def identify_product
     valid_characters = "^[0-9a-zA-Z]*$".freeze

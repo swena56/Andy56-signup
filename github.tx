@@ -5,7 +5,7 @@ git config --get user.email
 git config --global user.name "swena56"
 git config --global user.email "swena56@gmail.com"
 
-git clone http://github.com/swena56/Andy56
+git clone http://github.com/swena56/Andy56-signup
 cd Andy56
 git init
 git add .
@@ -25,6 +25,8 @@ gem install heroku
 heroku login
 heroku keys:add
 heroku git:clone -a andy56
+
+herko add remote ....will auto add to .git/config
 
 edit .git/config
 [remote "heroku"]
