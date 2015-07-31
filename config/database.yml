@@ -6,10 +6,12 @@
 #
 
 development:
-  adapter: sqlite3
+  adapter: postgresql
+  host: localhost
   pool: 5
   timeout: 5000
-  database: db/development.sqlite3
+  database:  postgres://ctjzthzabxldut:1wdm-BHwhGO3XgsNIBf5N_sOlj@ec2-54-204-3-188.compute-1.amazonaws.com:5432/dafj51nniqsgfp
+#  database: db/development.sqlite3
 
 # re-generated from your development database when you run "rake".
 # Do not set this db to the same as development or production.
