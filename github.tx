@@ -51,3 +51,13 @@ rails server
 gem uninstall ____
 rails new learn-rails -m https://raw.github.com/RailsApps/rails-composer/master/composer.rb
 
+
+<script type="text/javascript" src="swfobject.js"></script>
+ <script type="text/javascript">
+ swfobject.embedSWF("/swf/Car-speakers-590x90.swf","myContent","360","240","8.0.0","swf/Car-speakers-590x90.swf");
+ </script>
+<style media="screen" type="text/css">#myContent {visibility:hidden}</style>
+
+ <div id="myContent">
+ <h1>You need the Adobe Flash Player for this demo, download it by clicking the image below.
+</h1>

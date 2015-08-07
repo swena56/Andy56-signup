@@ -1,11 +1,19 @@
-<title>Programming Practice</title>
-<h1>Programming Practice</h1>
+<html>
+ <head>
+ <title>Programming Practice</title>
+ <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+ </head>
+ <body>
+	<h1>Programming Practice</h1>
+	<p> What is the date?  <%= @current_date %>  </p>
+	<p> My birthday?  <%= @myBirthday %>  </p>
+	<p> Days old?  <%= Integer(@current_date - @myBirthday) %>  </p>
 
+	<p>Embedding SWF</p>
+	<a href="http://www.adobe.com/go/getflashplayer">
+		<img src="http://www.adobe.com/images/shared/download_buttons/get_flash_player.gif"/>
+	</a>
 
-<p> What is the date?  <%= @current_date %>  </p>
-<p> My birthday?  <%= @myBirthday %>  </p>
-<p> Days old?  <%= Integer(@current_date - @myBirthday) %>  </p>
-
-
-
-
+	 <object data="/assets/swf/PonyPonyPonyPony.swf" type="application/x-shockwave-flash" width="550"height="400"/>
+ </body>
+</html>
