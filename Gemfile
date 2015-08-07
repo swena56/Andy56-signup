@@ -5,7 +5,7 @@ ruby '2.1.5'
 gem 'tzinfo-data'
 gem 'execjs'
 gem 'coffee-script-source', '1.8.0'
-gem 'gosu'
+#gem 'gosu'
 
 gem 'gmaps4rails'
 gem "swf_fu", "~> 2.0"
