@@ -6,7 +6,10 @@ class ProgrammingPracticeController < ApplicationController
   	if params[:status] == "activated"
 
   	end
-  	@current_date = 'a'
+  	@current_date = DateTime.now.to_date
+    @myBirthday = Date.new(1986,8,27)
+    
+    
   end
 
   #not sure how to download a file yet

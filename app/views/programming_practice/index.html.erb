@@ -2,7 +2,10 @@
 <h1>Programming Practice</h1>
 
 
-<p> What is the date?  <% puts @current_date %>  </p>
+<p> What is the date?  <%= @current_date %>  </p>
+<p> My birthday?  <%= @myBirthday %>  </p>
+<p> Days old?  <%= Integer(@current_date - @myBirthday) %>  </p>
 
 
-<p>Not sure how to add forms yet?</p>
+
+
