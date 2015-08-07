@@ -3,6 +3,7 @@ Rails.application.routes.draw do
   
   get 'notes/index'
   get 'notes/rails'
+  get 'notes/heroku'
 
   get 'products/:id', to: 'products#show', :as => :products
   devise_for :users, :controllers => { :registrations => 'registrations' }
